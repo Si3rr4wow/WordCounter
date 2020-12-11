@@ -24,7 +24,7 @@ You may also wish to run the set of included jests with
 npm run test
 ```
 
-## Apendix
+## Appendix
 
 This project was motivated by the following
 
