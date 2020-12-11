@@ -51,7 +51,7 @@ and
 
 • Avoid any non-standard library.
 
-I'll say immediately that I have used non-standard libraries in this task but non of them pertain to how I solved the actual problem. The solution to finding the most common words in a given string is entirely my own and is mostly just a bunch of `Array.reduce`. Therefore although I've bent the rules a little I believe I've done so fairly, and that this projects `dependencies` and `devDependencies` exists solely to present my solution in a (reasonably) pleasent looking UI and to provide unit tests.
+I'll say immediately that I have used non-standard libraries in this task but non of them pertain to how I solved the actual problem. The solution to finding the most common words in a given string is entirely my own and is mostly just a bunch of `Array.reduce`. Therefore although I've bent the rules a little I believe I've done so fairly, and that this projects `dependencies` and `devDependencies` exists solely to present my solution in a (reasonably) pleasent looking UI and to provide unit tests. I configured webpack myself rather than using something like `create-react-app` to keep things as stripped down as possible.
 
 As for the correctness of the solution, I have verified my functions output against examples given along with the problem and subsumed these as unit tests.
 
