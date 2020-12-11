@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the top words display 1`] = `
+Array [
+  <h3>
+    Top Words:
+  </h3>,
+  <p>
+    a
+    : 
+    3
+  </p>,
+  <p>
+    b
+    : 
+    2
+  </p>,
+  <p>
+    c
+    : 
+    1
+  </p>,
+]
+`;

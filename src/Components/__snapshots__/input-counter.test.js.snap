@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the text input 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-header"
+  >
+    <h4>
+      Use me to analyse smaller bodies of text.
+    </h4>
+  </div>
+  <div
+    className="card-body"
+  >
+    <p>
+      I can count the words you type here synchronously
+    </p>
+    <textarea
+      className="form-control"
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+</div>
+`;

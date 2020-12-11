@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the app 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    I'm a handy tool for counting words
+  </h1>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <h4>
+        Use me to analyse smaller bodies of text.
+      </h4>
+    </div>
+    <div
+      className="card-body"
+    >
+      <p>
+        I can count the words you type here synchronously
+      </p>
+      <textarea
+        className="form-control"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+  </div>
+  <hr />
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <h4>
+        Use me if you've got a larger file to analyse.
+      </h4>
+    </div>
+    <div
+      className="card-body"
+    >
+      <p>
+        I spin up web workers to count the words in the file you pass me. This means that the event loop doesn't get clogged up during the long running process.
+      </p>
+      <input
+        className="form-control-file"
+        disabled={false}
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+  </div>
+</div>
+`;
