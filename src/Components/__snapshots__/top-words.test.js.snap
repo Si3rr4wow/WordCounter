@@ -3,7 +3,7 @@
 exports[`Renders the top words display 1`] = `
 Array [
   <h3>
-    Top Words:
+    Top Words With Counts:
   </h3>,
   <p>
     a
@@ -20,5 +20,11 @@ Array [
     : 
     1
   </p>,
+  <h3>
+    Top Words As an Array:
+  </h3>,
+  <code>
+    ["a","b","c"]
+  </code>,
 ]
 `;
